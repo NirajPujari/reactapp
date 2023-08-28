@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/reactapp/static/css/main.c6d18572.css",
+    "main.js": "/reactapp/static/js/main.4c7cbd1c.js",
+    "static/js/787.a9120f67.chunk.js": "/reactapp/static/js/787.a9120f67.chunk.js",
+    "static/media/gymimage8.png": "/reactapp/static/media/gymimage8.b9e5f3d2989913d9435f.png",
+    "static/media/gymimage7.png": "/reactapp/static/media/gymimage7.436d1bbd01d41b5fc40e.png",
+    "static/media/gymimage9.png": "/reactapp/static/media/gymimage9.a78a843b548607d9f914.png",
+    "static/media/gymimage3.png": "/reactapp/static/media/gymimage3.470d580c37ae6ce419cd.png",
+    "static/media/gymimage2.png": "/reactapp/static/media/gymimage2.e1bb3cd05781d29c02c2.png",
+    "static/media/gymimage10.png": "/reactapp/static/media/gymimage10.43782444b995e0178093.png",
+    "static/media/service4.png": "/reactapp/static/media/service4.7588fd51515950990e81.png",
+    "static/media/service1.png": "/reactapp/static/media/service1.be9c4240f922b42c601c.png",
+    "static/media/service7.png": "/reactapp/static/media/service7.de6a1d3c87b5cb217799.png",
+    "static/media/service5.png": "/reactapp/static/media/service5.7d8a0e19e8faef8274da.png",
+    "static/media/gymimage6.png": "/reactapp/static/media/gymimage6.fa3128c51f582bb0ca7a.png",
+    "static/media/Logo1.png": "/reactapp/static/media/Logo1.95d48847eb33be81bcd1.png",
+    "static/media/gymimage1.png": "/reactapp/static/media/gymimage1.b851cb4361d8ec5137a9.png",
+    "static/media/service2.png": "/reactapp/static/media/service2.06c0824206d17512845a.png",
+    "static/media/service6.png": "/reactapp/static/media/service6.6c005c9e5282c5e30758.png",
+    "static/media/gymimage5.png": "/reactapp/static/media/gymimage5.631678617c4e004b2580.png",
+    "static/media/gymimage4.png": "/reactapp/static/media/gymimage4.a56780f8ee32194a0c43.png",
+    "index.html": "/reactapp/index.html",
+    "main.c6d18572.css.map": "/reactapp/static/css/main.c6d18572.css.map",
+    "main.4c7cbd1c.js.map": "/reactapp/static/js/main.4c7cbd1c.js.map",
+    "787.a9120f67.chunk.js.map": "/reactapp/static/js/787.a9120f67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6d18572.css",
+    "static/js/main.4c7cbd1c.js"
+  ]
+}
