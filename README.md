@@ -1,6 +1,6 @@
 # React App - Web-App 
 
-This is a simple React application named "hello-world."
+This is a simple React application named "Web-App".
 
 ## Project Description
 
