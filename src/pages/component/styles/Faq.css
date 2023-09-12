@@ -1,0 +1,165 @@
+/* src/components/styles/FaqPage.css */
+.faq {
+    background-color: #1a1a1a;
+}
+
+.faq-page {
+    max-width: 875px;
+    margin: auto;
+    padding: 20px;
+}
+
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-item {
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #333;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.faq-item:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.header {
+    color: #f0f0f0;
+    text-align: center;
+    margin: 175px auto 75px auto;
+    margin-bottom: 20px;
+}
+
+.question {
+    color: #007bff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.answer {
+    font-size: 16px;
+    color: #f0f0f0;
+    margin: 10px 0px;
+    width: 754px;
+}
+
+.vote-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    height: auto;
+}
+
+.upvote-button,
+.downvote-button {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    border: none;
+    border-radius: 100%;
+    padding: 5px 10px;
+    width: auto;
+    height: 35px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.upvote-button:hover,
+.downvote-button:hover {
+    background-color: #555;
+}
+
+.upvote-button.active,
+.downvote-button.active {
+    background-color: #007bff;
+    color: #f0f0f0;
+}
+
+.votes {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 30%;
+    font-size: 14px;
+}
+
+.add-faq-form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.add-faq-form h3 {
+    color: #f0f0f0;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.add-faq-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-faq-form label {
+    color: #f0f0f0;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.add-faq-form textarea {
+    color: #f0f0f0;
+    background-color: #444;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.add-faq-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.add-faq-form button:hover {
+    background-color: #0056b3;
+}
+
+.add-faq-form button:focus {
+    outline: none;
+}
+
+@media (max-width: 830px) {
+    .faq-page {
+        padding: 10px;
+    }
+
+    .faq-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .answer {
+        max-width: 95%;
+    }
+}

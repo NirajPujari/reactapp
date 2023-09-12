@@ -1,0 +1,83 @@
+/* src/components/SessionList.css */
+
+.session-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.session-card {
+  max-width: 700px;
+  background-color: rgba(0, 0, 0, 0.11);
+  flex: 1 1 300px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.session-card:hover {
+  transform: scale(1.05);
+  background-color: rgb(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.session-content {
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Increase opacity of .session-content when hovering .session-card */
+.session-card:hover .session-content {
+  opacity: 0.9;
+}
+
+/* Decrease opacity of .session-content when not hovering .session-card */
+.session-card:not(:hover) .session-content {
+  opacity: 0.3;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.facilities {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.facilities-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.facilities-name {
+  color: #ffffff;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.facilities-price {
+  font-size: 30px;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .session-card {
+    flex-basis: calc(50% - 20px);
+  }
+}

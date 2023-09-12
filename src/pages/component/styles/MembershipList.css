@@ -1,0 +1,124 @@
+/* src/components/MembershipList.css */
+
+.membership-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.membership-card {
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.11);
+  flex: 1 1 300px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.membership-card:hover {
+  transform: scale(1.05);
+  background-color: rgb(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.membership-content {
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Increase opacity of .membership-content when hovering .membership-card */
+.membership-card:hover .membership-content {
+  opacity: 1;
+}
+
+/* Decrease opacity of .membership-content when not hovering .membership-card */
+.membership-card:not(:hover) .membership-content {
+  opacity: 0.5;
+}
+
+.membership-content h3 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.membership-content p {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 #0053ac;
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.button:active {
+  transform: translateX(4px) translateY(4px);
+  box-shadow: 0px 0px 0 #0053ac;
+}
+
+/* .button:hover {
+  background-color: #0056b3;
+} */
+
+.facility {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+  margin: 10px 0px;
+  color: #ffffff;
+}
+
+.check-icon,
+.cross-icon {
+  margin-top: 2px;
+}
+
+.check-icon {
+  color: #1fb61f;
+}
+
+.cross-icon {
+  color: #ff4c4c;
+  margin-top: 5px;
+}
+
+@media (max-width: 765px) {
+  .membership-card {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .membership-list {
+    gap: 0.5px;
+  }
+
+  .membership-content h3 {
+    font-size: 15px;
+  }
+
+  .membership-content p {
+    font-size: 10px;
+  }
+
+  .button {
+    padding: 8px 15px;
+    font-size: 10px;
+  }
+
+  .facility {
+    font-size: 10px;
+    gap: 0.5px;
+  }
+}

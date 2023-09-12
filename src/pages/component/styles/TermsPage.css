@@ -1,0 +1,87 @@
+/* /component/styles/TermsPage.css */
+.terms {
+  background-image: url('/src/pages/component/assets/gymimage4.png');
+  background-size: cover;
+  background-position: center;
+  color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.terms h1 {
+  font-size: 2.5rem;
+  margin: 285px auto 0 auto;
+  margin-bottom: 30px;
+}
+
+.page-links {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0px auto 185px auto;
+}
+
+.page-links a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-links a:hover {
+  background-color: #007bff;
+  color: #f0f0f0;
+}
+
+.page-links a:last-child {
+  margin-bottom: 0;
+}
+
+.page-links a:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.4);
+}
+
+.page-links p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.page-links p:last-child {
+  margin-bottom: 0;
+}
+
+.page-links p em {
+  font-style: italic;
+}
+
+.page-links p strong {
+  font-weight: bold;
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .terms h1 {
+    font-size: 2rem;
+    margin: 175px auto 0 auto;
+  }
+
+  .page-links {
+    margin: 0px auto 100px auto;
+  }
+
+  .page-links a {
+    font-size: 1.1rem;
+    padding: 8px 15px;
+  }
+
+  .page-links p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+}

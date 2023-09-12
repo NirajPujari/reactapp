@@ -1,0 +1,35 @@
+/* /styles/FooterSection.css */
+.footer-section {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 1rem;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.social-media {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #007bff;
+}

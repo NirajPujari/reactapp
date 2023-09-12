@@ -1,0 +1,184 @@
+.join-member {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/src/pages/component/assets/gymimage8.png");
+}
+
+.join-page-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  border-radius: 10px;
+  width: 1200px;
+  margin: auto;
+}
+
+.join-form {
+  width: 690px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.join-form h1 {
+  text-align: center;
+  margin: 175px auto 10px auto;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.join-form .form-group {
+  margin-bottom: 15px;
+}
+
+.join-form label {
+  font-weight: bold;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.join-form input,
+.join-form select {
+  width: 100%;
+  padding: 8px;
+  background-color: #363636;
+  border: 1px solid #444444;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.join-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.join-form button:hover {
+  background-color: #0056b3;
+}
+
+.membership-details {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 175px auto 10px 20px;
+  color: white;
+  overflow: hidden;
+  height: 450px;
+}
+
+/* Styling for details container */
+.details {
+  text-align: left;
+}
+
+/* Styling for membership title */
+.details h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Styling for membership description */
+.details p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+/* Styling for facilities header */
+.details h3 {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/* Styling for facilities list */
+.details ul {
+  font-size: 1rem;
+  margin-left: 20px;
+}
+
+/* Styling for facilities list items */
+.details ul li {
+  margin-bottom: 5px;
+}
+
+/* Styling for price */
+.details p:last-child {
+  font-size: 1.3rem;
+  margin-top: 15px;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 1240px) {
+  .join-page-form {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+  }
+
+  .join-form {
+    width: 90%;
+    margin: 0;
+  }
+
+  .join-form h1 {
+    margin: 150px auto 10px auto;
+  }
+
+  .membership-details {
+    margin: 20px 0;
+    width: 90%;
+    margin-top: 20px;
+    padding: 15px;
+    overflow: auto;
+    max-height: 350px;
+  }
+
+  .membership-details::-webkit-scrollbar {
+    width: 0.5em;
+  }
+
+  .membership-details::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .details {
+    margin: 0;
+  }
+
+  .details h2 {
+    font-size: 1.2rem;
+  }
+
+  .details p {
+    font-size: 1rem;
+  }
+
+  .details h3 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  .details ul {
+    font-size: 1rem;
+    margin-left: 15px;
+  }
+
+  .details ul li {
+    margin-bottom: 3px;
+  }
+
+  .details p:last-child {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+}

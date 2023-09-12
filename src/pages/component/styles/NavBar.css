@@ -1,0 +1,104 @@
+/* /styles/NavBar.css */
+.navbar {
+  background-color: #000000;
+  padding: 15px 30px;
+}
+
+.logo {
+  max-width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  color: #ffffff;
+}
+
+.navbar-nav {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px;
+
+  margin-left: 20px;
+}
+
+.Link {
+  text-decoration: none;
+  color: white;
+  transition: color 0.5s ease-in-out;
+}
+
+.navbar-nav .nav-link .Link:hover {
+  color: #007bff;
+}
+
+.offcanvas-header {
+  background-color: #343a40;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.offcanvas-title {
+  color: #ffffff;
+}
+
+.offcanvas-body {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-icons {
+  position: relative;
+  bottom: 10px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-icons a {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 30px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-icons a:hover {
+  color: #007bff;
+}
+
+@media (min-width: 991px) {
+  .nav-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .logo {
+    max-width: 140px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .navbar {
+    padding: 10px 10px;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+
+}

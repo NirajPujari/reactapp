@@ -1,0 +1,64 @@
+/* Dark theme styles for the "terms-labor" section */
+.terms-labor {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 20px;
+  margin: 210px auto;
+  border-radius: 10px;
+}
+
+.terms-labor h1 {
+  color: #e6e6e6;
+}
+
+.terms-labor p {
+  margin: 10px 0;
+}
+
+.terms-labor a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.terms-labor a:hover {
+  text-decoration: underline;
+}
+
+/* Add this media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .terms-labor {
+    margin: 155px auto 65px auto;
+    padding: 10px;
+  }
+
+  .terms-labor h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .terms-labor p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .terms-labor a {
+    font-size: 14px;
+  }
+}
+
+/* Add this media query for screens smaller than 576px */
+@media (max-width: 576px) {
+  .terms-labor h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .terms-labor p {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .terms-labor a {
+    font-size: 12px;
+  }
+}
