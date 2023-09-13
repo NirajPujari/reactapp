@@ -9,7 +9,7 @@ const FooterSection = () => {
           &copy; {new Date().getFullYear()} PowerHouse Fitness. All
           rightsreserved.
         </p>
-        <p>Contact us: pujari.niraj@gmail.com</p>
+        <p>Contact us: powerhousefitness4@gmail.com</p>
       </div>
       <div className="social-media">
         <div className="social-media-img">
